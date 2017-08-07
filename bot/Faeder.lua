@@ -211,171 +211,40 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "admin",
-    "onservice",
-    "inrealm",
-    "ingroup",
-    "inpm",
-    "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "invite",
-    "all",
-    "leave_ban",
-    "supergroup",
-    "whitelist",
-    "msg_checks",
-    "cleanmsg",
-    "helps.pv",
-    "me",
     "plugins",
-    "rebot",
-    "short_link",
-    "redis",
-    "list1",
-    "help",
-    "list",
-    "list3",
-    "writer",
-    "lock_emoji",
-    "lock_english",
-    "lock_badword",
-    "lock_fwd",
-    "lock_join",
-    "lock_media",
-    "lock_reply",
-    "lock_tag",
-    "lock_username",
-    "set_type",
-    "serverinfo",
-    "welcome",
-    "dowelcome",
-    "lock_badword",
-    "azan",
-    "filter",
-    "music_eng",
-    "short_link",
-    "tag_english",
-    "translate",
-    "infoeng",
-    "textphoto",
-    "image23",
-    "sticker23",
-    "instagram",
-    "voice",
-    "bye",
-    "dobye",
-    "weather",
-    "time",
-    "echo",
+    "super",
+    "write",
+    "AboutMe",
+    "pm",
+    "updater",
+    "setwelcome",
+    "stats",
     "send",
-    "linkpv",
-    "sudolist"
+    "reply",
+    "red",
+    "name",
+    "mymsg",
+    "my",
+    "lock-flood",
+    "leave",
+    "inroom",
+    "help",
+    "gruop",
+    "delmsg",
+    "block",
+    "antyspam",
+    "admin",
+    "Devfaeder",
+    "banhammer"
     },
-    sudo_users = {124406196},--Sudo users
+    sudo_users = {259142888},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[DevPoint v1
-An advanced administration bot based on TG-CLI written in Lua
-
-https://github.com/DevPointTeam/DevPoint
-
-Admins
-@TH3_GHOST
-@MOHAMMED_ZEDAN
-Channel DEV POINT TEAM
-@DevPointTeam
-Special thanks to Teleseed
-channel SEED TEAM
-@teleseedch [English]
-
+    about_text = [[سورس قايدر الانكلش 
+احدث سورسات التلي وسورس قوي من قناة 
+@Team_faeder
 ]],
     help_text_realm = [[
-Realm Commands:
 
-!creategroup [Name]
-Create a group
-
-!createrealm [Name]
-Create a realm
-
-!setname [Name]
-Set realm name
-
-!setabout [group|sgroup] [GroupID] [Text]
-Set a group's about text
-
-!setrules [GroupID] [Text]
-Set a group's rules
-
-!lock [GroupID] [setting]
-Lock a group's setting
-
-!unlock [GroupID] [setting]
-Unock a group's setting
-
-!settings [group|sgroup] [GroupID]
-Set settings for GroupID
-
-!wholist
-Get a list of members in group/realm
-
-!who
-Get a file of members in group/realm
-
-!type
-Get group type
-
-!kill chat [GroupID]
-Kick all memebers and delete group
-
-!kill realm [RealmID]
-Kick all members and delete realm
-
-!addadmin [id|username]
-Promote an admin by id OR username *Sudo only
-
-!removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
-
-!list groups
-Get a list of all groups
-
-!list realms
-Get a list of all realms
-
-!support
-Promote user to support
-
-!-support
-Demote user from support
-
-!log
-Get a logfile of current group or realm
-
-!broadcast [text]
-!broadcast Hello !
-Send text to all groups
-Only sudo users can run this command
-
-!bc [group_id] [text]
-!bc 123456789 Hello !
-This command will send text to [group_id]
-
-
-**You can use "#", "!", or "/" to begin all commands
-
-
-*Only admins and sudo can add bots in group
-
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
 Commands list :
